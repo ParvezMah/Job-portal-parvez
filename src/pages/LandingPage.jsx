@@ -26,8 +26,8 @@ const LandingPage = () => {
         <Link to='/jobs'>
           <Button variant="blue" size="xl">Find Jobs</Button>
         </Link>
-        <Link to='/post-job'>
-          <Button variant="destructive" size="xl">Post a Jobs</Button>
+        <Link to='/post-jobs'>
+          <Button variant="destructive" size="xl">Post a Job</Button>
         </Link>
       </div>
 
