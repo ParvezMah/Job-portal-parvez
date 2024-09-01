@@ -1,8 +1,8 @@
-import { SignedIn, SignedOut, SignIn, SignInButton, UserButton } from "@clerk/clerk-react"
-import { Link, useSearchParams } from "react-router-dom"
-import { Button } from "./ui/button"
+import { SignedIn, SignedOut, SignIn, UserButton } from "@clerk/clerk-react"
 import { BriefcaseBusiness, Heart, PenBox } from "lucide-react"
 import { useEffect, useState } from "react"
+import { Link, useSearchParams } from "react-router-dom"
+import { Button } from "./ui/button"
 
 const Header = () => {
   // for login modal on/off
@@ -35,7 +35,7 @@ const Header = () => {
         <div className="flex gap-8">
           <SignedOut>
             {/* <SignInButton /> */}
-          <Button onClick={()=>{setShowSignIn(true)}} variant="ouline">Login</Button>
+          <Button onClick={()=>{setShowSignIn(true)}} variant="outline">Login</Button>
           </SignedOut>
           <SignedIn>
             {/* add a condition here */}
